@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="JotaroFigurine" motionHint="adaptive" trackingMode="car" optimizeTrackingFor="default"/>
+
+</Tracking>
+
+<Assembly name="JotaroFigurines_assembly" assemblyId="8923dc867da84478ac69b26cbd5866ca">
+<Part name="JotaroFigurine" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="GuideView_0000" translation="0.0146957 0.00922564 0.68682" rotation="AD: 0.999839 0.0569183 -0.337863 198.11" trained="no">
+
+</EntryPoint>
+<EntryPoint name="GuideView_0001" translation="-0.0283942 0.0054433 0.718887" rotation="AD: 0.999896 0.032095 -0.504058 186.506" trained="no">
+
+</EntryPoint>
+
+</Assembly>
+
+</QCARConfig>
