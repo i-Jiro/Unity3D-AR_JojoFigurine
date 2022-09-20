@@ -16,6 +16,7 @@ public class VoiceLineAudioController : MonoBehaviour
     //Called by Unity event in target tracker's event handler.
     public void PlayRandomVoiceLine()
     {
+        _audioSource.Stop();
         if (_voiceLineClips.Count < 1)
         {
             Debug.LogError("No audio clips in voice line list!");
